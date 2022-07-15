@@ -101,6 +101,7 @@
     flex-direction: row-reverse;
     align-items: center;
     border-left: none;
+    padding: 15px;
 }
 [data-block-id="cl5104jwy00033b6q3mc3mmm4"] .blocks-accordion__toggler,
 [data-block-id="cl513vxh100tr1vdzcsma9pd5"] .blocks-accordion__toggler,
@@ -110,7 +111,7 @@
 [data-block-id="cl507pnou000s3b6q6wtwk6o2"] .blocks-accordion__toggler {
     background: transparent;
     padding: 0;
-    color: #fff;     
+    color: #000;     
     font-size: 27px;
     line-height: 1;
     margin-right: 20px;
@@ -136,16 +137,13 @@
     content: '';
     width: 30px;
     height: 30px;
-    /* background: #000; */
+    background: #ddd;
     position: absolute;
     border-radius: 50%;
     top: 15px;
     left: 8px;
     transform: translate(-50%, -50%);
     z-index: -1;
-
-    background: transparent -webkit-gradient(linear,left top,right top,from(#d50054),color-stop(29%,#e10b49),to(#ff6b00)) 0 0 no-repeat;
-    background: transparent linear-gradient(90deg,#d50054,#e10b49 29%,#ff6b00) 0 0 no-repeat;
 }
 
 /* Second accordion */
