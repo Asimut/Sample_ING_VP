@@ -81,7 +81,6 @@
           }
         }
       }
-
       function fixedPlace3() {
         if (1400 < window.innerWidth) {
 
@@ -101,6 +100,14 @@
         }
         }
       }
+
+
+      // Add Image notest in Tabs 
+      $('[data-block-id="cl2dphyyi000y3g6jkgxi9pk9"] .blocks-tabs__content-item').each(function(){
+        // var noteText = $(this).find('.blocks-tabs__description .fr-view>ol:last-child').clone();
+
+        $(this).find('.blocks-tabs__image').append($(this).find('.blocks-tabs__description .fr-view>ol:last-child'));
+      });
     });         
 
   })(jQuery); 
