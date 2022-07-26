@@ -108,6 +108,11 @@
 
         $(this).find('.blocks-tabs__image').append($(this).find('.blocks-tabs__description .fr-view>ol:last-child'));
       });
+
+      // Add Image notest in Accordion 
+      $('[data-block-id="cl4zrkk8e00163b6qta2fs3ts"] .blocks-accordion__content').each(function(){
+        $(this).find('.blocks-accordion__image').append($(this).find('.blocks-accordion__description .fr-view>ol:last-child'));
+      });
     });         
 
   })(jQuery); 

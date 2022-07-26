@@ -400,3 +400,11 @@
 .progress-bar {
     display: none;
 }
+
+sup {
+    vertical-align: super;
+}
+.blocks-tabs__image ol, .blocks-accordion__image ol {
+    font-size: 12px;
+    line-height: 1.1;
+}
